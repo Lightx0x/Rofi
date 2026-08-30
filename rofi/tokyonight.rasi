@@ -10,11 +10,11 @@
     hv: #9274ca; 
     primary: #444b6a;  // TokyoNight bright black
     ug: #0B2447;
-    font: "JetBrainsMono Nerd Font 24";
+    font: "Monospace 11";
     background-color: @bg;
     //dark: @bg;
     border: 0px;
-    kl: #ffffff;
+    kl: #7aa2f7;
     black: #000000;
 
     transparent: rgba(46,52,64,0);
@@ -22,11 +22,12 @@
 
 // defines different aspects of the window
 window {
-    width: 50%;
+    width: 700;
     /*since line wont work with height, i comment it out 
     if you rather control the size via height
     just comment it out */
-    height: 800;
+    //height: 500;
+
     orientation: horizontal;
     location: center;
     anchor: center;
