@@ -5,6 +5,7 @@ configuration{
     terminal: "alacritty";
     drun-display-format: "{icon} {name}";
     location: 0;
+    dpi: 0;
     disable-history: false;
     sidebar-mode: false;
     display-drun: " ";

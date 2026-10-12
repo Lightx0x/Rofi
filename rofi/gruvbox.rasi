@@ -8,14 +8,14 @@
     selected: #504945;
     border-c: #665c54;
 
-    font: "Cascadia Code NF 18";
+    font: "Cascadia Code NF 16";
     background-color: @bg;
     text-color: @fg;
     border: 0px;
 }
 
 window {
-    width: 1680px;
+    width: 87.5%;
     location: center;
     anchor: center;
     border: 3px;
@@ -30,7 +30,7 @@ mainbox {
 }
 
 inputbar {
-    padding: 16px;
+    padding: 0.5em;
     border: 0px 0px 2px 0px;
     border-color: @border-c;
     color: @fg;
@@ -38,7 +38,7 @@ inputbar {
 }
 
 prompt {
-    margin: 0px 8px 0px 0px;
+    margin: 0em 0.3em 0em 0em;
     text-color: @accent;
     background-color: inherit;
 }
@@ -50,22 +50,22 @@ entry {
 }
 
 message {
-    padding: 8px 16px;
+    padding: 0.3em 0.5em;
     border: 0px 0px 1px 0px;
     border-color: @border-c;
 }
 
 listview {
-    padding: 8px;
+    padding: 0.3em;
     lines: 6;
     columns: 2;
-    spacing: 4px;
+    spacing: 0.15em;
     dynamic: false;
     border: 0px;
 }
 
 element {
-    padding: 8px 12px;
+    padding: 0.3em 0.4em;
     border-radius: 6px;
     text-color: @fg;
 }
@@ -110,7 +110,7 @@ case-indicator {
 }
 
 button {
-    padding: 8px;
+    padding: 0.3em;
     text-color: @fg-dim;
     background-color: @bg-alt;
     border: 0px;
